@@ -58,7 +58,6 @@ a {
 /* clear  */
 header {
   background-color: white;
-  padding-bottom: 70px;
 }
 
 .navbar {
@@ -104,5 +103,47 @@ header {
   color: #a87e85;
   text-decoration: none;
   cursor: pointer;
+}
+
+.start {
+  background-color: #d8c2ba;
+  height: 60vh;
+}
+
+.start .quotation {
+  width: 700px;
+  font-family: "Playfair Display SC", serif;
+  position: absolute;
+  left: 10%;
+  top: 32%;
+  color: black;
+  font-weight: bold;
+}
+
+.start .quotation strong {
+  padding-left: 250px;
+  color: #a87e85;
+}
+
+.start .quotation .quotation__1 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.start .quotation .quotation__2 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.start .quotation .quotation__3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.start .start__menu--img {
+  position: relative;
+  left: 60%;
+  color: #030307;
 }
 /*# sourceMappingURL=style.css.map */

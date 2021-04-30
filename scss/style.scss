@@ -68,8 +68,6 @@ a {
 
 header {
   background-color: white;
- 
-  padding-bottom: 70px;
 }
 
 .navbar {
@@ -105,4 +103,48 @@ header {
        }
    }
 
+}
+
+// The end section header
+
+.start {
+  background-color: rgb(216, 194, 186);
+  height: 60vh;
+
+
+  .quotation {
+    width: 700px;
+    font-family: $font;
+    position: absolute;
+    left: 10%;
+    top: 32%;
+    color: black;
+    font-weight: bold;
+    
+
+      strong {
+      padding-left: 250px;
+      color: $color-1;
+      }
+      .quotation__1 {
+        font-size: 40px;
+        line-height: 1;
+      }
+      .quotation__2 {
+        font-size: 30px;
+        padding: 10px 0;
+      }
+      .quotation__3 {
+        font-size: 30px;
+        text-align: center;
+        // letter-spacing: 1px;
+        padding-top: 20px;
+      }
+    }
+
+    .start__menu--img {
+      position: relative;
+      left: 60%;
+      color: rgb(3, 3, 7);
+    }
 }
