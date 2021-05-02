@@ -107,7 +107,7 @@ header {
 
 .start {
   background-color: #d8c2ba;
-  height: 60vh;
+  height: 70vh;
 }
 
 .start .quotation {
@@ -145,5 +145,68 @@ header {
   position: relative;
   left: 60%;
   color: #030307;
+}
+
+.about__me {
+  background-color: #635656;
+  height: 90vh;
+}
+
+.about__me .about__me--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about__me .about__me--all img {
+  width: 300px;
+  height: 500px;
+  margin-left: 65%;
+  margin-top: 35%;
+}
+
+.about__me .about__me--all .about__me--paragraph {
+  font-family: "Playfair Display SC", serif;
+  color: #a87e85;
+  margin-left: 20%;
+  font-size: 20px;
+  padding-top: 100px;
+  width: 1000px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.about__me .about__me--all .about__me--paragraph .diseases {
+  padding: 15px;
+}
+
+.about__me .about__me--all .about__me--paragraph .diseases-all {
+  padding: 5px 0;
+}
+
+.about__me .about__me--all .about__me--paragraph .health {
+  padding: 40px 0;
+  width: 500px;
+}
+
+.about__me .about__me--all .about__me--paragraph .health2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about__me .more__about {
+  margin: 3% 0 0 45%;
+  text-align: center;
+  color: #a87e85;
+  background-color: #dfc3c8;
+  border: none;
+  width: 300px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 25px;
 }
 /*# sourceMappingURL=style.css.map */

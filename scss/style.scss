@@ -109,7 +109,7 @@ header {
 
 .start {
   background-color: rgb(216, 194, 186);
-  height: 60vh;
+  height: 70vh;
 
 
   .quotation {
@@ -146,5 +146,63 @@ header {
       position: relative;
       left: 60%;
       color: rgb(3, 3, 7);
+    }
+}
+
+// The end section  start
+
+.about__me {
+  background-color: rgb(99, 86, 86);
+  height: 90vh;
+
+  .about__me--all {
+    display: flex;
+    flex-direction: row;
+
+    img {
+   width: 300px;
+   height: 500px;
+   margin-left: 65%;
+   margin-top: 35%;
+    }
+
+    .about__me--paragraph {
+      font-family: $font;
+      color: $color-1;
+      margin-left: 20%;
+      font-size: 20px;
+      padding-top: 100px;
+      width: 1000px;
+      cursor: pointer;
+      font-weight: bold;
+
+      .diseases {
+        padding: 15px;
+      }
+        .diseases-all {
+          padding: 5px 0;
+        }
+      
+        .health {
+          padding: 40px 0;
+          width: 500px;
+        }
+        .health2 {
+          font-size: 28px;
+          font-weight: bold;
+        }
+    }
+  }
+
+    .more__about {
+      margin: 3% 0 0 45%;
+      text-align: center;
+      color: $color-1;
+      background-color: $background-color;
+      border: none;
+      width: 300px;
+      height: 60px;
+      font-weight: bold;
+      font-size: 25px;
     }
 }
